@@ -11,11 +11,21 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
+    align-items: center;
 }
 span{
     display: block;
     height: 50%;
     width: 50%;
     border: 2px solid green;
-
+    border-radius: 50%;
+}
+.caja1:hover{
+    background-color: aqua;
+}
+.caja2:hover{
+    background-color: green;
+}
+.caja3:hover{
+    background-color: red;
 }
